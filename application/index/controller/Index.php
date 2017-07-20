@@ -8,16 +8,16 @@ class Index extends Controller
 {
     public function index()
     {
-        $product = new Product;
+        /*$product = new Product;
         $product->setName('韩良');
         $em = $this->getEntityManage();
         $em->persist($product);
         $em->flush();
-        return '插入最后的ID ' . $product->getId();
-
+        return '插入最后的ID ' . $product->getId();*/
+        return 'Hello world';
     }
 
-    public function test()
+/*    public function test()
     {
         $product = new Product;
         $product->setName('韩华');
@@ -25,5 +25,5 @@ class Index extends Controller
         $em->persist($product);
         $em->flush();
         return '插入最后的ID ' . $product->getId();
-    }
+    }*/
 }
